@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Pages": {
+      "type": "integer"
+    },
+    "Grade": {
+      "type": "enumeration",
+      "enum": [
+        "Inget betyg än",
+        "Noll",
+        "Ett",
+        "Två",
+        "Tre",
+        "Fyra",
+        "Fem",
+        "Sex",
+        "Sju",
+        "Åtta",
+        "Nio",
+        "Tio"
+      ],
+      "default": "Inget betyg än"
+    },
+    "ReleaseDate": {
+      "type": "date"
+    },
+    "Bookcover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

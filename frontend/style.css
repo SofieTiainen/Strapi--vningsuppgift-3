@@ -1,0 +1,29 @@
+.hidden {
+    display: none;
+}
+
+.login-box {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+div.inlogg {
+    margin-bottom: 50px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.loginfieldsHeader {
+    display: flex;
+
+}
